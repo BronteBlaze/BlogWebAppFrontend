@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+body {
+  font-family: "Questrial", sans-serif;
+  background-color: #f3f3f3;
+}
+
+input:focus,
+textarea {
+  outline: none;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+.quill-editor .ql-editor {
+  font-size: 16px;
+  font-family: "Questrial", sans-serif;
+}
+
+.border-line::before {
+  border: 2px solid red;
+}
+
+.bordered-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bordered-text::before,
+.bordered-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid lightgrey;
+  margin: 0 15px;
+}
+
+.bordered-text span {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.ant-select-focused .ant-select-selector,
+.ant-select-selector:focus,
+.ant-select-selector:active,
+.ant-select-open .ant-select-selector {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
+}
