@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="bg-white pt-10">
       <Wrapper>
-        <div className="grid grid-cols-4 gap-12 text-second-color">
+        <div className="grid md:grid-cols-4 md:gap-12 gap-6 text-second-color">
           <div>
             <img src={logo} alt="oxoford-logo-img" className="w-full" />
             <div className="mt-4">
@@ -28,7 +28,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="justify-self-center">
+          <div className="md:justify-self-center">
             <div className="font-semibold text-lg">
               <h5>Quick Links</h5>
             </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
   const isLoggedIn = useSelector(getIsLoggedIn);
 
   return (
-    <div className="sticky top-0 z-[999]">
+    <div className="sticky top-0 z-[999] hidden lg:block">
       <div className="bg-white flex justify-center py-6">
         <ul className="flex items-center gap-16 text-lg text-second-color">
           {navOptions.map((option, index) => {

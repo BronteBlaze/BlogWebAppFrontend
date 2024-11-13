@@ -29,7 +29,7 @@ const Sidebar = ({ margin }) => {
 
   return (
     <div
-      className={`col-span-2 border border-gray-300 p-4 text-second-color h-[120rem] ${
+      className={`col-span-2 border border-gray-300 p-4 text-second-color h-[120rem] mt-6 md:mt-0 ${
         margin && "my-6"
       }`}
     >
@@ -54,7 +54,7 @@ const Sidebar = ({ margin }) => {
               barberry, dried tomato, paprika, turmerics I not have the number.
               All proved highly dependent on the size and how much you want to
               cook pilaf. Just remember that meat, onions and carrots should be
-              about the same amount....
+              .....
             </p>
           </div>
         </div>

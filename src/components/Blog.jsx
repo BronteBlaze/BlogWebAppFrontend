@@ -29,7 +29,7 @@ const Blog = ({
 
   return (
     <div
-      className={`px-10 py-6 bg-white text-second-color border border-gray-300`}
+      className={`md:px-10 p-6 bg-white text-second-color border border-gray-300`}
     >
       {index > 4 && !isLoggedIn && (
         <div className="absolute top-[80%] right-0 bottom-0 left-0 bg-gradient-to-t from-[rgba(255,255,255,1)] via-[rgba(255,255,255,0.7)] to-[rgba(255,255,255,0)]">
@@ -50,7 +50,7 @@ const Blog = ({
           <img
             src={imagePath}
             alt="oxford-blog-image"
-            className="h-[14rem] w-full object-cover"
+            className="md:h-[14rem] h-[10rem] w-full object-cover"
           />
         </div>
         <div className="h-[12rem] break-words overflow-hidden">

@@ -20,19 +20,19 @@ const AllBlogs = () => {
   // console.log(allBlogs);
 
   return (
-    <div className="col-span-5">
+    <div className="lg:col-span-5">
       <div className="text-xl py-4 text-center font-semibold text-head-color">
         <h4>All Blogs</h4>
       </div>
       {blogStatus === "loading" && (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
           {allBlogs.map((_, index) => {
             return <BlogSkeleton key={index} index={index} />;
           })}
         </div>
       )}
       {blogStatus === "idle" && allBlogs?.length !== 0 && (
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
           {allBlogs?.map((blog, index) => {
             const postDate = formatDate(blog.created_at);
             return (

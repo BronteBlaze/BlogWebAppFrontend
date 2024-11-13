@@ -14,7 +14,7 @@ const SwipCategory = ({ imgSrc, title }) => {
 
   return (
     <div className="relative">
-      <div className="h-[15rem]">
+      <div className="md:h-[15rem]">
         <img src={imgSrc} alt="oxford-blog-types" />
       </div>
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/50">

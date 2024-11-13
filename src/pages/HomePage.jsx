@@ -15,7 +15,7 @@ const HomePage = () => {
       <Navbar />
       <LandHome />
       <Wrapper>
-        <div className="grid grid-cols-7 gap-4 relative">
+        <div className="md:grid md:grid-cols-7 gap-4 relative">
           <AllBlogs />
           <Sidebar />
         </div>

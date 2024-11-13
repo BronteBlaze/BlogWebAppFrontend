@@ -50,6 +50,17 @@ const LandHome = () => {
             modules={[Autoplay]}
             autoplay={true}
             loop={true}
+            breakpoints={{
+              320: {
+                slidesPerView: 1.1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              900: {
+                slidesPerView: 3,
+              },
+            }}
           >
             {blogCategories.map((category, index) => {
               return (

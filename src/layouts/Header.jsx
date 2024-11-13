@@ -24,7 +24,7 @@ const Header = () => {
       <div className="flex justify-center">
         <div className="text-center">
           <div className="flex justify-center">
-            <img src={logo} alt="oxford-blog-logo" className="w-[20rem]" />
+            <img src={logo} alt="oxford-blog-logo" className="md:w-[20rem] w-[15rem]" />
           </div>
           <h2 className="text-3xl text-head-color font-semibold mt-4">
             Oxford Blog Article Website
